@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9911BBA41A3007CC00F7CD35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBA31A3007CC00F7CD35 /* main.m */; };
+		9911BBA71A3007CC00F7CD35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBA61A3007CC00F7CD35 /* AppDelegate.m */; };
+		9911BBAF1A3007CC00F7CD35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9911BBAE1A3007CC00F7CD35 /* Images.xcassets */; };
+		9911BBBE1A3007CC00F7CD35 /* PanBackNavControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBBD1A3007CC00F7CD35 /* PanBackNavControllerTests.m */; };
+		9911BBCA1A30085300F7CD35 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBC91A30085300F7CD35 /* Animator.m */; };
+		9911BBD21A3008B100F7CD35 /* PanBackNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBCD1A3008B100F7CD35 /* PanBackNavController.m */; };
+		9911BBD31A3008B100F7CD35 /* VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBCF1A3008B100F7CD35 /* VC2.m */; };
+		9911BBD41A3008B100F7CD35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911BBD11A3008B100F7CD35 /* ViewController.m */; };
+		9911BBD61A3008ED00F7CD35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9911BBD51A3008ED00F7CD35 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9911BBB81A3007CC00F7CD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9911BB961A3007CC00F7CD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9911BB9D1A3007CC00F7CD35;
+			remoteInfo = PanBackNavController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9911BB9E1A3007CC00F7CD35 /* PanBackNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanBackNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9911BBA21A3007CC00F7CD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9911BBA31A3007CC00F7CD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9911BBA51A3007CC00F7CD35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9911BBA61A3007CC00F7CD35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9911BBAE1A3007CC00F7CD35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9911BBB71A3007CC00F7CD35 /* PanBackNavControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanBackNavControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9911BBBC1A3007CC00F7CD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9911BBBD1A3007CC00F7CD35 /* PanBackNavControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanBackNavControllerTests.m; sourceTree = "<group>"; };
+		9911BBC81A30085300F7CD35 /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		9911BBC91A30085300F7CD35 /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		9911BBCC1A3008B100F7CD35 /* PanBackNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanBackNavController.h; sourceTree = "<group>"; };
+		9911BBCD1A3008B100F7CD35 /* PanBackNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanBackNavController.m; sourceTree = "<group>"; };
+		9911BBCE1A3008B100F7CD35 /* VC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC2.h; sourceTree = "<group>"; };
+		9911BBCF1A3008B100F7CD35 /* VC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC2.m; sourceTree = "<group>"; };
+		9911BBD01A3008B100F7CD35 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9911BBD11A3008B100F7CD35 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9911BBD51A3008ED00F7CD35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9911BB9B1A3007CC00F7CD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9911BBB41A3007CC00F7CD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9911BB951A3007CC00F7CD35 = {
+			isa = PBXGroup;
+			children = (
+				9911BBD51A3008ED00F7CD35 /* Default-568h@2x.png */,
+				9911BBA01A3007CC00F7CD35 /* PanBackNavController */,
+				9911BBBA1A3007CC00F7CD35 /* PanBackNavControllerTests */,
+				9911BB9F1A3007CC00F7CD35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9911BB9F1A3007CC00F7CD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9911BB9E1A3007CC00F7CD35 /* PanBackNavController.app */,
+				9911BBB71A3007CC00F7CD35 /* PanBackNavControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9911BBA01A3007CC00F7CD35 /* PanBackNavController */ = {
+			isa = PBXGroup;
+			children = (
+				9911BBCB1A30086B00F7CD35 /* VC */,
+				9911BBC71A30080B00F7CD35 /* Model */,
+				9911BBA51A3007CC00F7CD35 /* AppDelegate.h */,
+				9911BBA61A3007CC00F7CD35 /* AppDelegate.m */,
+				9911BBAE1A3007CC00F7CD35 /* Images.xcassets */,
+				9911BBA11A3007CC00F7CD35 /* Supporting Files */,
+			);
+			path = PanBackNavController;
+			sourceTree = "<group>";
+		};
+		9911BBA11A3007CC00F7CD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9911BBA21A3007CC00F7CD35 /* Info.plist */,
+				9911BBA31A3007CC00F7CD35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9911BBBA1A3007CC00F7CD35 /* PanBackNavControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9911BBBD1A3007CC00F7CD35 /* PanBackNavControllerTests.m */,
+				9911BBBB1A3007CC00F7CD35 /* Supporting Files */,
+			);
+			path = PanBackNavControllerTests;
+			sourceTree = "<group>";
+		};
+		9911BBBB1A3007CC00F7CD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9911BBBC1A3007CC00F7CD35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9911BBC71A30080B00F7CD35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9911BBC81A30085300F7CD35 /* Animator.h */,
+				9911BBC91A30085300F7CD35 /* Animator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9911BBCB1A30086B00F7CD35 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9911BBCC1A3008B100F7CD35 /* PanBackNavController.h */,
+				9911BBCD1A3008B100F7CD35 /* PanBackNavController.m */,
+				9911BBCE1A3008B100F7CD35 /* VC2.h */,
+				9911BBCF1A3008B100F7CD35 /* VC2.m */,
+				9911BBD01A3008B100F7CD35 /* ViewController.h */,
+				9911BBD11A3008B100F7CD35 /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9911BB9D1A3007CC00F7CD35 /* PanBackNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9911BBC11A3007CC00F7CD35 /* Build configuration list for PBXNativeTarget "PanBackNavController" */;
+			buildPhases = (
+				9911BB9A1A3007CC00F7CD35 /* Sources */,
+				9911BB9B1A3007CC00F7CD35 /* Frameworks */,
+				9911BB9C1A3007CC00F7CD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanBackNavController;
+			productName = PanBackNavController;
+			productReference = 9911BB9E1A3007CC00F7CD35 /* PanBackNavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9911BBB61A3007CC00F7CD35 /* PanBackNavControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9911BBC41A3007CC00F7CD35 /* Build configuration list for PBXNativeTarget "PanBackNavControllerTests" */;
+			buildPhases = (
+				9911BBB31A3007CC00F7CD35 /* Sources */,
+				9911BBB41A3007CC00F7CD35 /* Frameworks */,
+				9911BBB51A3007CC00F7CD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9911BBB91A3007CC00F7CD35 /* PBXTargetDependency */,
+			);
+			name = PanBackNavControllerTests;
+			productName = PanBackNavControllerTests;
+			productReference = 9911BBB71A3007CC00F7CD35 /* PanBackNavControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9911BB961A3007CC00F7CD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhaoqihao;
+				TargetAttributes = {
+					9911BB9D1A3007CC00F7CD35 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9911BBB61A3007CC00F7CD35 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9911BB9D1A3007CC00F7CD35;
+					};
+				};
+			};
+			buildConfigurationList = 9911BB991A3007CC00F7CD35 /* Build configuration list for PBXProject "PanBackNavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9911BB951A3007CC00F7CD35;
+			productRefGroup = 9911BB9F1A3007CC00F7CD35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9911BB9D1A3007CC00F7CD35 /* PanBackNavController */,
+				9911BBB61A3007CC00F7CD35 /* PanBackNavControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9911BB9C1A3007CC00F7CD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9911BBAF1A3007CC00F7CD35 /* Images.xcassets in Resources */,
+				9911BBD61A3008ED00F7CD35 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9911BBB51A3007CC00F7CD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9911BB9A1A3007CC00F7CD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9911BBD41A3008B100F7CD35 /* ViewController.m in Sources */,
+				9911BBCA1A30085300F7CD35 /* Animator.m in Sources */,
+				9911BBA71A3007CC00F7CD35 /* AppDelegate.m in Sources */,
+				9911BBD21A3008B100F7CD35 /* PanBackNavController.m in Sources */,
+				9911BBA41A3007CC00F7CD35 /* main.m in Sources */,
+				9911BBD31A3008B100F7CD35 /* VC2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9911BBB31A3007CC00F7CD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9911BBBE1A3007CC00F7CD35 /* PanBackNavControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9911BBB91A3007CC00F7CD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9911BB9D1A3007CC00F7CD35 /* PanBackNavController */;
+			targetProxy = 9911BBB81A3007CC00F7CD35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9911BBBF1A3007CC00F7CD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9911BBC01A3007CC00F7CD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9911BBC21A3007CC00F7CD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanBackNavController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9911BBC31A3007CC00F7CD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanBackNavController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9911BBC51A3007CC00F7CD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanBackNavControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanBackNavController.app/PanBackNavController";
+			};
+			name = Debug;
+		};
+		9911BBC61A3007CC00F7CD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanBackNavControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanBackNavController.app/PanBackNavController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9911BB991A3007CC00F7CD35 /* Build configuration list for PBXProject "PanBackNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9911BBBF1A3007CC00F7CD35 /* Debug */,
+				9911BBC01A3007CC00F7CD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9911BBC11A3007CC00F7CD35 /* Build configuration list for PBXNativeTarget "PanBackNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9911BBC21A3007CC00F7CD35 /* Debug */,
+				9911BBC31A3007CC00F7CD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9911BBC41A3007CC00F7CD35 /* Build configuration list for PBXNativeTarget "PanBackNavControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9911BBC51A3007CC00F7CD35 /* Debug */,
+				9911BBC61A3007CC00F7CD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9911BB961A3007CC00F7CD35 /* Project object */;
+}
